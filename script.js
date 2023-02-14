@@ -21,14 +21,14 @@ function displaydata(weather){
     <div class="pricing-column">
       <div class="card bg-transparent">
         <div class="card-header bg-dark">
-          <h3>${weather.name}</h3>
+          <h3 class="text">${weather.name}</h3>
         </div>
 
         <div class="card-body">
-          <h5>Cloud <span>: ${weather.clouds.all} </span> </h5>
-          <h5>Humidity <span>: ${weather.main.humidity} </span> </h5>
-          <h5>Wind <span style="margin-left:32px">: ${weather.wind.speed} </span></h5>
-          <h5>Pressure <span style="margin-left:5px">: ${weather.main.pressure} </span></h5>
+          <h5 class="text">Cloud <span>: ${weather.clouds.all} </span> </h5>
+          <h5 class="text">Humidity <span>: ${weather.main.humidity} </span> </h5>
+          <h5 class="text">Wind <span >: ${weather.wind.speed} </span></h5>
+          <h5 class="text">Pressure <span >: ${weather.main.pressure} </span></h5>
 
         </div>
       </div>
@@ -44,14 +44,14 @@ function displaydata(weather){
 function tempdata(temperature){
     maindata=`
     <div id="mainicon">
-                <h1><span class="icon"> <img class="iconimg"  src='http://openweathermap.org/img/w/${temperature.weather[0].icon}.png'> </span> </h1>
+                <h1 ><span class="icon"> <img class="iconimg"  src='http://openweathermap.org/img/w/${temperature.weather[0].icon}.png'> </span> </h1>
             </div>
             <div id="temp">
-                <h1 style="font-size:80px">${temperature.main.temp} &#8451; </h1>
-                <h5>Feels like ${temperature.main.feels_like}  &#8451;</h5>
-                <h4>${temperature.weather[0].main}</h4>
-                <h2>${temperature.name}</h2>
-                <h5>${temperature.sys.country}</h5>
+                <h1 style="font-size:1 rem">${temperature.main.temp} &#8451; </h1>
+                <h5 class="text">Feels like ${temperature.main.feels_like}  &#8451;</h5>
+                <h4 class="text">${temperature.weather[0].main}</h4>
+                <h2 class="text">${temperature.name}</h2>
+                <h5 class="text">${temperature.sys.country}</h5>
             </div>
     `
     maincol.innerHTML = maindata

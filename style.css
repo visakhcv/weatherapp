@@ -40,7 +40,7 @@ h4{
     text-align: justify;
 }
 .searchcolumn{
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 #temp{
@@ -61,3 +61,82 @@ h4{
     width: 80px;
     height: 80px;
 }
+.imagebut{
+    width: 20px;
+    height: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .maincol{
+        width: 400px;
+        height: 400px;
+    }
+    .searchcol{
+        width: 400px;
+        height: 400px;
+    }
+    h1{
+        font-size: 1rem
+    }
+    h2{
+        font-size: 0.5rem;
+    }
+    h3{
+        font-size: 0.5rem;
+    }
+    .text{
+        font-size: 0.5rem;
+    }
+    .card-body{
+        text-align: center;
+    }
+    .btn{
+        width: 10px;
+        height: 20px;
+    }
+    .form-control{
+        width: 80px;
+        height: 20px;
+    }
+    .heading{
+        font-size: 1rem;
+    }
+    .card-header{
+        height: 30px;
+    }
+    .searchcolumn{margin-left: opx;}
+    #mainicon{
+        margin-top: 100px;
+    }
+    #temp{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .iconimg{
+        width: 30px;
+        height: 30px;
+    }
+    .icon{
+        margin-left: 10px;
+        
+    }
+    .navbar{
+        height: 60px;
+    }
+    .iconhead{
+        width: 30px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+    .imagebut{
+        width: 0px;
+        height: 0px;
+    }
+    .btn{
+        padding: 0px;
+    }
+    .divider{
+        margin-top: 40px;
+    }
+    
+  }
