@@ -1,0 +1,63 @@
+.searchcol{
+    background-image: url(rightback.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.maincol{
+    background-image: url(mainback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: azure;
+}
+h3{
+    color: azure;
+}
+h5{
+    color: azure;
+}
+br{
+    color: aliceblue;
+}
+
+.divider{
+    margin-top: 80px;
+}
+
+.card{
+    text-align: center;
+    color: azure;
+}
+h2{
+    color: azure;
+}
+h4{
+    color: azure;
+}
+.card-body{
+    text-align: justify;
+}
+.searchcolumn{
+    margin-left: 20%;
+}
+
+#temp{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#mainicon{
+    margin-top: 200px;
+    text-align: center;
+}
+.icon{
+    margin-left: 30px;
+    
+}
+
+.iconimg{
+    width: 80px;
+    height: 80px;
+}
